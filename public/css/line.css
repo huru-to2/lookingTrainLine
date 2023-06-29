@@ -1,43 +1,7 @@
-* {
-    box-sizing: border-box;
+.content {
+    margin-top: 2em;
 }
 
-div {
-    display: block;
-}
-
-body {
-    width: auto;
-}
-
-.header {
-    background-color: #4eff4d;
-    max-width: 100%;
-}
-
-#inner-header {
-    max-width: 96%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.wrap {
+.inner-content {
     margin: 0 auto;
-}
-
-#logo {
-    display: inline-block;
-    height: 62px;
-    line-height: 62px;
-    margin: 0 5px 0 0;
-    text-align: left;
-    width: auto;
-    font-weight: bold;
-}
-
-#logo-text {
-    padding-left: px;
-    letter-spacing: 1px;
-    color: white;
-    font-size: 23px;
 }
